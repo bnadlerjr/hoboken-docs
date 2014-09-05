@@ -1,0 +1,33 @@
+<section>
+  <p>Hoboken is a Ruby gem that generates Sinatra projects. It keeps the folder structure simple and gets out of your way.</p>
+
+  <h2 id="getting-started">Getting Started</h2>
+
+  <h3>Installation</h3>
+  <p><pre class="command">$ gem install hoboken</pre></p>
+
+  <h3>Generate a new Project</h3>
+  <p><pre class="command">
+$ hoboken generate my_project
+      create  my_project
+      create  my_project/app.rb
+      create  my_project/Gemfile
+      ...
+
+Successfully created my_project. Don't forget to `bundle install`
+  </pre></p>
+
+  <h3>Start the Server</h3>
+  <p><pre class="command">
+$ bundle exec rake server
+>> Using rack adapter
+>> Thin web server (v1.5.1 codename Straight Razor)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9292, CTRL+C to stop
+  </pre></p>
+  <p>Your app is now running on localhost on port 9292. Check it out in a browser!</p>
+  <img src="./images/hoboken-running.png" width="640px" />
+
+  <h2>Next Steps</h2>
+  <p>Read the <%= link_to "documentation", "/documentation.html" %> to learn more about generation options, project structure, and add ons.</p>
+</section>
