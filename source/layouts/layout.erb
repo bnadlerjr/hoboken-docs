@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <title>Hoboken</title>
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+    <%= stylesheet_link_tag 'normalize', 'all' %>
+    <%= javascript_include_tag  'all' %>
   </head>
 
   <body>
@@ -19,10 +19,10 @@
         <aside>
           <h4>What would you like to do?</h4>
           <ul>
-            <li><%= link_to "Get started", "/index.html" %></li>
-            <li><%= link_to "Report a bug", "https://github.com/bnadlerjr/hoboken/issues" %></li>
-            <li><%= link_to "Read documentation", "/documentation.html" %></li>
-            <li><%= link_to "View source code", "https://github.com/bnadlerjr/hoboken" %></li>
+            <li><%= link_to 'Get started', '/index.html' %></li>
+            <li><%= link_to 'Report a bug', 'https://github.com/bnadlerjr/hoboken/issues' %></li>
+            <li><%= link_to 'Read documentation', '/documentation.html' %></li>
+            <li><%= link_to 'View source code', 'https://github.com/bnadlerjr/hoboken' %></li>
           </ul>
         </aside>
         <%= yield_content :docs_menu %>
